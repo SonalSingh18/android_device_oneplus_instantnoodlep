@@ -11,8 +11,24 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from instantnoodlep device
 $(call inherit-product, device/oneplus/instantnoodlep/device.mk)
 
-# Inherit some common Lineage stuff.
+# Inherit some common crdroid stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+
+# Inherit BCR
+$(call inherit-product, vendor/bcr/bcr.mk)
+
+# GMS
+ifeq ($(WITH_GMS),true)
+$(call inherit-product, vendor/gms/gms_full.mk)
+$(call inherit-product, vendor/pixel-style/config/common.mk)
+endif
+
+PRODUCT_NO_CAMERA := true
+TARGET_DISABLE_EPPE := true
+TARGET_ENABLE_BLUR := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_EXCLUDES_AUDIOFX := true
+TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_NAME := lineage_instantnoodlep
 PRODUCT_DEVICE := instantnoodlep

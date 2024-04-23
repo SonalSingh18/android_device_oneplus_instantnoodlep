@@ -1,0 +1,10 @@
+git clone https://github.com/SonalSingh18/android_device_oneplus_sm8250-common.git -b 14.0 device/oneplus/sm8250-common
+git clone https://github.com/SonalSingh18/android_vendor_oneplus_sm8250-common.git -b lineage-21 vendor/oneplus/sm8250-common
+git clone https://github.com/TheMuppets/proprietary_vendor_oneplus_instantnoodlep.git -b lineage-21 vendor/oneplus/instantnoodlep
+git clone https://bitbucket.org/nameless-aosp/vendor_oneplus_camera.git -b fourteen vendor/oneplus/camera
+git clone https://github.com/SonalSingh18/android_kernel_oneplus_sm8250.git -b 14.0 kernel/oneplus/sm8250
+git clone https://github.com/SonalSingh18/android_packages_apps_OPlusExtras.git -b 14.0 packages/apps/OPlusExtras
+git clone https://github.com/SonalSingh18/android_hardware_oplus.git -b 14.0 hardware/oplus
+git clone https://github.com/SonalSingh18/android_packages_apps_Settings.git -b pixel-style vendor/pixel-style
+git clone https://github.com/Chaitanyakm/vendor_bcr.git -b main vendor/bcr
+git clone https://github.com/SonalSingh18/vendor_evolution-priv_keys.git -b 14.0 vendor/lineage-priv/keys
