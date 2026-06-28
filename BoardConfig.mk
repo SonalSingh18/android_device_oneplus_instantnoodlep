@@ -26,5 +26,11 @@ BOARD_SUPER_PARTITION_SIZE := 15032385536
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/init/fstab.qcom
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 103
 
+# Relax library checks
+RELAX_USES_LIBRARY_CHECK := true
+
+# Selinux ignore neverallows
+SELINUX_IGNORE_NEVERALLOWS := true
+
 # Include the proprietary files BoardConfig.
 include vendor/oneplus/instantnoodlep/BoardConfigVendor.mk

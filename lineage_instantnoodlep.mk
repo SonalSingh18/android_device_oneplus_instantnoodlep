@@ -15,6 +15,14 @@ $(call inherit-product, device/oneplus/instantnoodlep/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Device configs
+EVO_BUILD_TYPE := Official
+TARGET_HAS_UDFPS := true
+TARGET_INCLUDE_BCR := false
+TARGET_INCLUDE_ACCORD := false
+PRODUCT_NO_CAMERA := true
+
+# Device identifiers
 PRODUCT_NAME := lineage_instantnoodlep
 PRODUCT_DEVICE := instantnoodlep
 PRODUCT_MANUFACTURER := OnePlus
