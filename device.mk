@@ -44,6 +44,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.powershare-service.oplus
 
+# RemovePackages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
+# Revanced Manager
+$(call inherit-product, vendor/revanced/products/revanced.mk)
+
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 29
 
