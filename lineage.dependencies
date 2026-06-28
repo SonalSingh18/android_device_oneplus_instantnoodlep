@@ -1,6 +1,74 @@
 [
   {
-    "repository": "android_device_oneplus_sm8250-common",
+    "remote": "github",
+    "branch": "cnb",
+    "repository": "SonalSingh18/android_device_oneplus_sm8250-common",
     "target_path": "device/oneplus/sm8250-common"
+  },
+  {
+    "remote": "github",
+    "branch": "cnb",
+    "repository": "SonalSingh18/android_vendor_oneplus_instantnoodlep",
+    "target_path": "vendor/oneplus/instantnoodlep"
+  },
+  {
+    "remote": "github",
+    "branch": "cnb",
+    "repository": "SonalSingh18/android_vendor_oneplus_sm8250-common",
+    "target_path": "vendor/oneplus/sm8250-common"
+  },
+  {
+    "remote": "github",
+    "branch": "cnb",
+    "repository": "SonalSingh18/android_vendor_oneplus_camera",
+    "target_path": "vendor/oneplus/camera"
+  },
+  {
+    "remote": "github",
+    "branch": "cnb",
+    "repository": "SonalSingh18/android_kernel_oneplus_sm8250",
+    "target_path": "kernel/oneplus/sm8250"
+  },
+  {
+    "remote": "github",
+    "branch": "cnb",
+    "repository": "SonalSingh18/android_hardware_oplus",
+    "target_path": "hardware/oplus"
+  },
+  {
+    "remote": "github",
+    "branch": "cnb",
+    "repository": "SonalSingh18/android_vendor_revanced",
+    "target_path": "vendor/revanced"
+  },
+  {
+    "remote": "github",
+    "branch": "cnb",
+    "repository": "SonalSingh18/android_vendor_evolution-priv_keys",
+    "target_path": "vendor/evolution-priv/keys"
+  },
+  {
+    "remote": "github",
+    "branch": "cnb",
+    "repository": "SonalSingh18/android_packages_apps_OnePlusParts",
+    "target_path": "packages/apps/OnePlusParts"
+  },
+  {
+    "remote": "github",
+    "branch": "cnb",
+    "repository": "SonalSingh18/android_packages_apps_GameBar",
+    "target_path": "packages/apps/GameBar"
+  },
+  {
+    "remote": "github",
+    "branch": "cnb",
+    "repository": "SonalSingh18/android_packages_apps_AxPcMode",
+    "target_path": "packages/apps/AxPcMode"
+  },
+  {
+    "remote": "github",
+    "branch": "cnb",
+    "repository": "Evolution-X-Devices/packages_apps_ViPER4AndroidFX",
+    "target_path": "packages/apps/ViPER4AndroidFX"
   }
 ]
