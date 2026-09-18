@@ -44,6 +44,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.powershare-service.oplus
 
+# RemovePackages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 29
 
